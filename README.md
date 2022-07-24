@@ -11,9 +11,8 @@ cdk --version
 # create a user in aws account and get access key and secret key
 aws configure
 
-# init the cdk app
-cdk init app --language typescript
-
 cdk bootstrap
+cdk synth
+cdk diff
 cdk deploy
 ```
