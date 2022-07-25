@@ -16,3 +16,9 @@ cdk synth
 cdk diff
 cdk deploy
 ```
+
+### To develop python lambda
+```bash
+# install PDM
+curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
+```
